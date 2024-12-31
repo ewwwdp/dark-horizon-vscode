@@ -1,25 +1,25 @@
 {
-  "name": "dark-horizon",
-  "displayName": "Dark Horizon",
+  "name": "darker-horizon",
+  "displayName": "Darker Horizon",
   "description": "An elegant dark theme with vibrant foreground colors.",
-  "version": "0.4.1",
-  "author": "Michael Cagampan <mcagampan@outlook.com>",
-  "publisher": "mcagampan",
+  "version": "0.5.0",
+  "author": "ewwwdp <ewwdp@proton.me>",
+  "publisher": "ewwwdp",
   "engines": {
     "vscode": "^1.49.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcagampan/dark-horizon"
+    "url": "https://github.com/ewwwdp/dark-horizon-vscode"
   },
   "bugs": {
-    "url": "https://github.com/mcagampan/dark-horizon/issues"
+    "url": "https://github.com/ewwwdp/dark-horizon-vscode/issues"
   },
   "galleryBanner": {
     "color": "#0e0e0e",
     "theme": "dark"
   },
-  "icon": "logo2.png",
+  "icon": "logo.png",
   "categories": [
     "Themes"
   ],
@@ -41,14 +41,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dark Horizon",
+        "label": "Darker Horizon",
         "uiTheme": "vs-dark",
-        "path": "./themes/Dark Horizon-color-theme.json"
+        "path": "./themes/Darker Horizon-color-theme.json"
       },
       {
-        "label": "Dark Horizon (Bold)",
+        "label": "Darker Horizon (Bold)",
         "uiTheme": "vs-dark",
-        "path": "./themes/Dark Horizon-color-theme-bold.json"
+        "path": "./themes/Darker Horizon-color-theme-bold.json"
       }
     ]
   }
