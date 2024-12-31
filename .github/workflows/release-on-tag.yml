@@ -1,0 +1,36 @@
+
+name: Build and Release Extension
+
+on:
+  push:
+    tags:
+      - 'v*' 
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Package VS Code Extension
+      run: npx vsce package
+      env:
+        NODE_ENV: production
+
+    - name: Create Release and Upload VSIX
+      uses: softprops/action-gh-release@v1
+      with:
+        files: "*.vsix"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
