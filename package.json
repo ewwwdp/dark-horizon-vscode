@@ -44,6 +44,11 @@
         "label": "Dark Horizon",
         "uiTheme": "vs-dark",
         "path": "./themes/Dark Horizon-color-theme.json"
+      },
+      {
+        "label": "Dark Horizon (Bold)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Horizon-color-theme-bold.json"
       }
     ]
   }

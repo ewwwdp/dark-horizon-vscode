@@ -164,7 +164,7 @@
     {
       "name": "Tags",
       "scope": "entity.name.tag",
-      "settings": { "foreground": "#E95678E6", "fontStyle": "bold" }
+      "settings": { "foreground": "#E95678E6"}
     },
     {
       "name": "Static types",
@@ -174,7 +174,7 @@
     {
       "name": "Tag attributes",
       "scope": "entity.other.attribute-name",
-      "settings": { "foreground": "#46ACAD", "fontStyle": "bold" }
+      "settings": { "foreground": "#46ACAD" }
     },
     {
       "name": "Inherited classes",
@@ -234,7 +234,7 @@
     {
       "name": "Markup bold",
       "scope": "markup.bold",
-      "settings": { "foreground": "#B877DBE6", "fontStyle": "bold" }
+      "settings": { "foreground": "#B877DBE6" }
     },
     {
       "name": "Markup italics",
@@ -263,12 +263,12 @@
         "keyword.operator.delete",
         "variable.language"
       ],
-      "settings": { "foreground": "#46ACAD", "fontStyle": "bold" }
+      "settings": { "foreground": "#46ACAD"}
     },
     {
       "name": "HTML derivative",
       "scope": "text.html.derivative",
-      "settings": { "foreground": "#ced4da", "fontStyle": "bold" }
+      "settings": { "foreground": "#ced4da"}
     },
     {
       "name": "Strings",
@@ -297,7 +297,7 @@
     {
       "name": "Provided (support) values",
       "scope": "support",
-      "settings": { "foreground": "#FF4797", "fontStyle": "bold" }
+      "settings": { "foreground": "#FF4797" }
     },
     {
       "name": "Provided functions",
