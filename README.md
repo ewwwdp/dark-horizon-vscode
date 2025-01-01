@@ -1,11 +1,9 @@
-# Darker Horizon Theme for VS Code
+# [Darker Horizon Theme for VS Code](https://marketplace.visualstudio.com/items?itemName=ewwwdp.darker-horizon)
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=ewwwdp.darker-horizon">
   <img src="logo.png"/>
   <br>
   <img src = "https://badgen.net/github/release/ewwwdp/dark-horizon-vscode/stable?color=white"/>
   <img src = "https://badgen.net/vs-marketplace/i/ewwwdp.darker-horizon?color=white"/>
-  </a>
 </p>
 
 ## Install
